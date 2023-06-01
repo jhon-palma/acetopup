@@ -944,7 +944,7 @@ body {
   --------------------------------------------------------------*/
   .vales{
     background-color: $colorPrimario;
-    padding: 4.4rem 0;
+    padding: 4.4rem 0 3.2rem 0;
   }
 
   #vales h1{
@@ -978,7 +978,28 @@ body {
     font-weight: 700;
     color: $colorSecundario;
 }
-   
+
+#details h4{
+    color: $colorSecundario;
+}
+
+#details .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 16px 30px;
+    transition: 0.5s;
+    color: #FFFFFF;
+    background-color: $colorPrimario;
+    margin: 1rem;
+    border-color: $colorSecundario;
+  }
+  
+  #details .btn-get-started:hover {
+    background: rgba($colorSecundario, 1);
+  }
   /*--------------------------------------------------------------
   # Gallery
   --------------------------------------------------------------*/
